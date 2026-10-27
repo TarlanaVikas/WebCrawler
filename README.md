@@ -186,9 +186,7 @@ web-crawler/
 ├── tests/                   pytest suite
 ├── docs/banner.svg
 ├── .env.example
-├── requirements.txt, requirements-dev.txt
-├── THIRD-PARTY-NOTICES.md
-└── LICENSE
+└── requirements.txt, requirements-dev.txt
 ```
 
 ## Tests
@@ -214,6 +212,3 @@ The interface was also exercised in a real browser against a running server for 
 - Verified against local fixture sites and one real HTTPS site; behaviour on the wider web will vary.
 - Crawl only sites you own or have permission to crawl, and follow their terms of use.
 
-## License
-
-Released under the [MIT License](LICENSE). Bundled fonts and icons are covered by their own licenses, listed in [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).
