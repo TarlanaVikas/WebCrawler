@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+*.egg-info/
+venv/
+.venv/
+env/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.tox/
+.nox/
+build/
+dist/
+pip-wheel-metadata/
+
+# Local data and logs
+*.db
+*.db-wal
+*.db-shm
+*.db-journal
+*.sqlite
+*.sqlite3
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite-journal
+*.sqlite3-wal
+*.sqlite3-shm
+*.sqlite3-journal
+*.log
+
+# Secrets and local configuration (keep .env.example)
+.env
+.env.*
+!.env.example
+
+# Node (only if tooling is added later)
+node_modules/
+
+# Editors and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Scratch
+scratch/

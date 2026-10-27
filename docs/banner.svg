@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" role="img" aria-labelledby="t d">
+  <title id="t">Web Crawler</title>
+  <desc id="d">The Web Crawler wordmark beside a network of linked pages with a crawl path highlighted.</desc>
+  <rect width="1200" height="280" fill="#14181a"/>
+  <g stroke="#e8e3d6" stroke-opacity="0.16" stroke-width="1" fill="none">
+    <path d="M700 60 780 120 850 70 930 150 1010 90 1100 170"/>
+    <path d="M780 120 790 210 880 230 930 150"/>
+    <path d="M850 70 960 40 1010 90"/>
+    <path d="M1010 90 1090 50 1150 110 1100 170 1040 240 930 150"/>
+    <path d="M790 210 700 240"/>
+    <path d="M880 230 1040 240"/>
+    <path d="M700 60 640 130 700 240"/>
+  </g>
+  <g fill="#b3b0a4" fill-opacity="0.55">
+    <circle cx="700" cy="60" r="3"/><circle cx="780" cy="120" r="3"/><circle cx="850" cy="70" r="3"/>
+    <circle cx="960" cy="40" r="2.5"/><circle cx="1090" cy="50" r="2.5"/><circle cx="1150" cy="110" r="3"/>
+    <circle cx="790" cy="210" r="3"/><circle cx="880" cy="230" r="3"/><circle cx="1040" cy="240" r="3"/>
+    <circle cx="700" cy="240" r="2.5"/><circle cx="640" cy="130" r="2.5"/>
+  </g>
+  <path d="M700 60 780 120 850 70 930 150 1010 90 1100 170" stroke="#6dbba5" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#6dbba5"><circle cx="700" cy="60" r="4"/><circle cx="780" cy="120" r="4"/><circle cx="850" cy="70" r="4"/><circle cx="930" cy="150" r="4"/><circle cx="1010" cy="90" r="4"/></g>
+  <circle cx="1100" cy="170" r="11" fill="#d0a85c" fill-opacity="0.22"/>
+  <circle cx="1100" cy="170" r="6" fill="#d0a85c"/>
+  <g transform="translate(72 74) scale(3.4)">
+    <path d="M4.5 7.5 10.5 24.5 16 11 21.5 24.5 27.5 7.5" fill="none" stroke="#b3b0a4" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <g fill="#14181a" stroke="#e8e3d6" stroke-width="1.5"><circle cx="4.5" cy="7.5" r="2.1"/><circle cx="10.5" cy="24.5" r="2.1"/><circle cx="16" cy="11" r="2.1"/><circle cx="21.5" cy="24.5" r="2.1"/></g>
+    <circle cx="27.5" cy="7.5" r="4.6" fill="#d0a85c" fill-opacity="0.22"/><circle cx="27.5" cy="7.5" r="2.6" fill="#d0a85c"/>
+  </g>
+  <text x="200" y="150" font-family="'Avenir Next','Segoe UI',Helvetica,Arial,sans-serif" font-size="68" font-weight="700" letter-spacing="-1.5" fill="#e8e3d6">Web Crawler</text>
+  <text x="203" y="196" font-family="'Avenir Next','Segoe UI',Helvetica,Arial,sans-serif" font-size="26" fill="#b3b0a4">Follow every link. Keep what each page says.</text>
+</svg>

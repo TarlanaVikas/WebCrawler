@@ -1,0 +1,11 @@
+{
+  "name": "web-crawler",
+  "version": "1.0.0",
+  "description": "Web Crawler: follow the links of a website and record each page's status, content and links.",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "start": "python main.py",
+    "test": "python -m pytest"
+  }
+}

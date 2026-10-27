@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Web Crawler</title>
+  <meta name="description" content="Web Crawler follows the links of a website from a start URL and records each page's status, title, headings, metadata and outgoing links.">
+  <meta name="theme-color" content="#14181a">
+  <meta name="color-scheme" content="dark">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/bricolage-grotesque-latin-wdth-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/views.css">
+  <script type="module" src="js/main.js"></script>
+</head>
+<body data-view="home">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <canvas id="ambient" aria-hidden="true"></canvas>
+
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="#/" aria-label="Web Crawler, home">
+        <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+          <path class="mark-path" d="M4.5 7.5 10.5 24.5 16 11 21.5 24.5 27.5 7.5"/>
+          <circle class="mark-node" cx="4.5" cy="7.5" r="2.1"/>
+          <circle class="mark-node" cx="10.5" cy="24.5" r="2.1"/>
+          <circle class="mark-node" cx="16" cy="11" r="2.1"/>
+          <circle class="mark-node" cx="21.5" cy="24.5" r="2.1"/>
+          <circle class="mark-halo" cx="27.5" cy="7.5" r="4.6"/>
+          <circle class="mark-head" cx="27.5" cy="7.5" r="2.6"/>
+        </svg>
+        <span>Web Crawler</span>
+      </a>
+      <nav class="nav" aria-label="Main">
+        <a href="#/" data-nav="home">Crawl</a>
+        <a href="#/history" data-nav="history">History</a>
+      </nav>
+      <div class="topbar-spacer"></div>
+      <div id="status-slot"></div>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1"></main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <span>Web Crawler <span id="app-version" class="num"></span>. Crawl only what you have permission to crawl.</span>
+      <button id="motion-toggle" class="btn btn-ghost btn-sm" type="button" aria-pressed="true">Background motion: on</button>
+    </div>
+  </footer>
+
+  <div id="toasts" role="status" aria-live="polite"></div>
+  <noscript><p class="noscript">Web Crawler needs JavaScript to run its interface.</p></noscript>
+</body>
+</html>
